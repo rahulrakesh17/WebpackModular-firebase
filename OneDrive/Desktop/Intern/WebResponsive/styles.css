@@ -18,15 +18,7 @@
 .logo{
     text-align: center;
 }
-main{
-    margin-top: 30px;
-    padding: 0 10% 0 10%;
-}
-@media screen and (max-width: 700px) {
-    main{
-        padding: 0 5% 0 5%;
-    }
-}
+
 .first-box{
     margin-bottom: 10%;
 }
@@ -62,6 +54,20 @@ line-height: 36px;
     font-weight: 400;
     line-height: 28px;
     
+}
+.button-trans{
+    border-radius:0;
+    background-color: transparent;
+    margin-right: 3% ;
+    margin-left: 3%;
+    min-width: 20px;
+    padding: 10px 40px 10px 40px;
+    color: black;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;   
 }
 
 .second-box-6{
@@ -102,7 +108,9 @@ line-height: 30.6px; /* 218.571% */
 
 
 .third-box{
-    margin: 7% 0 7% 0;
+    margin:  0  0;
+    padding: 5% 0 5% 0;
+    background-color: #D0E8C8;
 }
 @media (max-width:1200px){
     .container{
@@ -121,4 +129,54 @@ line-height: 30.6px; /* 218.571% */
     }
 }
 
+.half-bg{
+    background: linear-gradient(
+        to top,
+        #D0E8C8 0%, #D0E8C8 50%,#FFF 50%, #FFF 100%
+      );
+}
 
+.fifth-box{
+    margin: 5% 0 5%;
+}
+
+.sixth-box{
+    background-color: #D0E8C8;
+    padding: 5% 0;
+}
+
+footer{
+    background-color: #394B2A;
+    color: #FFF;
+    font-family: Questrial;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+footer a{
+    color: #FFF;    
+font-family: Inter;
+font-size: 0.75rem;
+font-style: normal;
+font-weight:lighter;
+line-height: 34px; /
+}
+.footer-text p{
+    color: #FFF;
+font-family: Questrial;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 33.6px; 
+text-decoration: underline;
+letter-spacing: 1.2px;
+margin-top: 10%;
+margin-left: 8%;
+}
+@media (max-width:576px) {
+    .footer-3{
+        margin-top: 10%;
+    }
+}
